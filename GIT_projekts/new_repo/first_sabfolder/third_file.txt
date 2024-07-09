@@ -1,0 +1,3 @@
+Third file text
+
+I`m changed in the main brange

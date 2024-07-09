@@ -1,0 +1,25 @@
+  230  ssh-add C:/Users/Администратор/OneDrive/Desktop/key/id_ed25519.txt
+  231  git clone https://github.com/KeyError34/erst_test_ich.git C:/Users/Администратор/OneDrive/Desktop/GIT_projekts
+  232  git clone https://github.com/KeyError34/erst_test_ich.git C:/Users/Администратор/OneDrive/Desktop/GIT_projekts/erst_test_ich
+  233  ls -la
+  234  cd C:/Users/Администратор/OneDrive/Desktop/GIT_projekts/erst_test_ich~
+  235  cd C:/Users/Администратор/OneDrive/Desktop/GIT_projekts/erst_test_ich
+  236  touch .gitignore
+  237  echo "node_modules/" >> .gitignore
+  238  git add .gitignore
+  239  ls -la
+  240  git status
+  241  git commit -m "Add .gitignore file"
+  242  git push origin main
+  243  git checkout -b feature
+  244  echo "# my New Repo" > README.md
+  245  git add  README.md
+  246  git commit -m "Update  README.md"
+  247  git push origin feature
+  248  git commit --amend -m "Update  README.md with (amend)"
+  249  git push --force origin feature
+  250  git log
+  251  git checkout main
+  252  git merge feature
+  253  git push origin main
+  254  history | tail -n 25 > history.txt
